@@ -1,0 +1,6 @@
+"0",""
+"0","prs_characterization %>%"
+"0","    ggplot(aes(x = duration, y = code_churn, color=repo)) + "
+"0","    geom_point(alpha=0.75) +"
+"0","    labs(x = ""Duration"", y = ""Code churn"") + "
+"0","    ggtitle(""Code churn per duration"")"

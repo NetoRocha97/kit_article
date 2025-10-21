@@ -1,0 +1,6 @@
+"0","all_data %>%"
+"0","    group_by(rule) %>%"
+"0","    summarise(debt = sum(debt)) %>%"
+"0","    mutate(percentage = round((debt / sum(debt)) * 100, 3)) %>%"
+"0","    arrange(desc(debt)) %>%"
+"0","    head(10)"

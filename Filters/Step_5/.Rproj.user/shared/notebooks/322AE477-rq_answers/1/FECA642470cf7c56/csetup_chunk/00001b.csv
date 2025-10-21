@@ -1,0 +1,7 @@
+"0",""
+"0","options(kableExtra.latex.next.table.width = ""0.5\\linewidth"")"
+"0","options(dplyr.summarise.inform = FALSE)"
+"0",""
+"0","theme_set(theme_bw())"
+"0",""
+"0","all_data <- read.csv(""../data/processed_issues.csv"", encoding = ""UTF-8"")"

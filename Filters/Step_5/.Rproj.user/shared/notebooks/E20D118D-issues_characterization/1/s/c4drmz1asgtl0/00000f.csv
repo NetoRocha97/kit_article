@@ -1,0 +1,4 @@
+"0","all_data %>%"
+"0","    select(debt, rule) %>%"
+"0","    arrange(desc(debt)) %>%"
+"0","    head(10)"
