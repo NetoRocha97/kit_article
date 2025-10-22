@@ -1,0 +1,7 @@
+"0","total_in_seconds <- sum(monitoring_data$duration_in_seconds)"
+"0","total_days <- total_in_seconds / (60*60*24)"
+"0","total_days"
+"1","[1]"
+"1"," 0.8493961"
+"1","
+"

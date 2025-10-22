@@ -1,0 +1,8 @@
+"0","all_data %>%"
+"0","    filter(origin == ""NEW"" & status == ""CLOSED"") %>%"
+"0","    group_by(rule) %>%"
+"0","    summarise(n = n(), severity=unique(severity)) %>%"
+"0","    mutate(percentage = round((n / sum(n)) * 100, 3)) %>%"
+"0","    arrange(desc(n)) %>%"
+"0","    select(rule, severity, n, percentage) %>%"
+"0","    head(10)"

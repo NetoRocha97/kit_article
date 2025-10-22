@@ -1,0 +1,5 @@
+"0","all_data %>%"
+"0","    select(debt, rule) %>%"
+"0","    distinct(rule, .keep_all=TRUE) %>%"
+"0","    arrange(debt) %>%"
+"0","    head(3)"
