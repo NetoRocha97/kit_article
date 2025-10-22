@@ -1,6 +1,0 @@
-"0",""
-"0","prs_characterization %>%"
-"0","    ggplot(aes(x = duration, y = changed_files_count, color=repo)) + "
-"0","    geom_point(alpha=0.75) +"
-"0","    labs(x = ""Duration"", y = ""Changed files count"") + "
-"0","    ggtitle(""Changed files count per duration"")"

@@ -1,1 +1,0 @@
-"0","all_data %>% filter(rule == ""java:S1192"") %>% filter(grepl(""test"", file)) %>% count()"

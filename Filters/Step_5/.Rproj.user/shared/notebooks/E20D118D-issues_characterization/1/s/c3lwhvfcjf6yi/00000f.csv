@@ -1,4 +1,0 @@
-"0","all_data %>%"
-"0","    filter(status == ""CLOSED"") %>%"
-"0","    distinct(rule) %>%"
-"0","    count()"

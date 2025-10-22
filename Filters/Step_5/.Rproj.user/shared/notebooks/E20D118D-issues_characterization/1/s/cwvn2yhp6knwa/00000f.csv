@@ -1,8 +1,0 @@
-"0","all_data %>%"
-"0","    group_by(repo, pr_number) %>%"
-"0","    mutate(num_issues = n()) %>%"
-"0","    distinct(file, .keep_all=TRUE) %>%"
-"0","    filter(ncloc_affected_file != 0) %>%"
-"0","    reframe(ncloc = sum(ncloc_affected_file), smell_density = first(num_issues)/ncloc) %>%"
-"0","    arrange(desc(smell_density)) %>%"
-"0","    head(10)"

@@ -1,6 +1,0 @@
-"0","all_data %>%"
-"0","  group_by(repo, rule) %>%"
-"0","  summarise(n = n()) %>%"
-"0","  arrange(repo, desc(n)) %>%"
-"0","  group_by(repo) %>%"
-"0","  slice_head(n = 10)"

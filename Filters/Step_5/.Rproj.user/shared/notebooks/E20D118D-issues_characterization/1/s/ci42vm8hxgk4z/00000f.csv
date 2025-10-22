@@ -1,6 +1,0 @@
-"0","all_data %>%"
-"0","    group_by(repo, pr_number) %>%"
-"0","    summarise(n_issues = n()) %>%"
-"0","    ungroup(repo) %>%"
-"0","    arrange(desc(n_issues)) %>%"
-"0","    head(3)"

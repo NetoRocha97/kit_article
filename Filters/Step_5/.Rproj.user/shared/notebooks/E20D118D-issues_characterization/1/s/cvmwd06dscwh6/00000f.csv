@@ -1,7 +1,0 @@
-"0","all_data %>%"
-"0","  group_by(repo, rule) %>%"
-"0","  summarise(debt = sum(debt)) %>%"
-"0","  mutate(percentage = round((debt / sum(debt)) * 100, 3)) %>%"
-"0","  arrange(repo, desc(debt)) %>%"
-"0","  group_by(repo) %>%"
-"0","  slice_head(n = 10)"

@@ -1,1 +1,0 @@
-"0","all_data %>% filter(origin == ""PRE-EXISTING"") %>% distinct(repo,pr_number) %>% count()"

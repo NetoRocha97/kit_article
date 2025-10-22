@@ -1,8 +1,0 @@
-"0",""
-"0","prs_characterization %>%"
-"0","    group_by(repo) %>%"
-"0","    summarise("
-"0","        mean_code_churn = mean(code_churn),"
-"0","        median_code_churn = median(code_churn),"
-"0","        mean_duration = mean(duration)"
-"0","    )"
